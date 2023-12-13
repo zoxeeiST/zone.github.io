@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color:white;
+    background-size: cover;
+    border: 1px solid purple;
+    height: 100vh;
+}
+p {
+    font-size: 17px;
+}
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll; 
+    height: 100vh;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+.Homepage {
+    color: rgb(12, 37, 58);
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 90px;
+    border-radius: 5vh;
+}
+.about {
+    text-decoration: solid;
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 90px;
+    border-radius: 5vh;
+}
+.skill {
+    color: rgb(12, 37, 58);
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 90px;
+    border-radius: 5vh;
+}
+.contact {
+    color: rgb(12, 37, 58);
+    text-align: center;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 90px;
+    border-radius: 5vh;
+}
+.btn {
+    padding: 20px 50px;
+    cursor: pointer;
+    border: 2px solid #0f172a;
+    box-shadow: 2px 2px 0 0 white, 4px 4px 0 0 #0f172a;
+    transition-duration: 200ms;
+    border-radius: 5vh;
+}
+.btn:hover {
+    box-shadow: 3px 3px 0 0 white, 6px 6px 0 0 #0f172a;
+    transform: translate(-2px, -2px);
+}
+.none {
+    text-align: center;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 5vh;
+    position: absolute;
+    padding: 20px;
+    bottom: 5%;
+    left: 90%;
+}
+.one {
+    background-color: rgb(255, 249, 249);
+    background-size: cover;
+}
+.two {
+    background-size: cover;
+    background-image: url(image/pxfuel.jpg);
+
+}
+.three {
+    background-color: rgb(255, 249, 249);
+    background-size: cover;
+}
+.four {
+    background-color: rgb(255, 249, 249);
+    background-size: cover;
+}
+
+.text1{
+    color: rgb(255, 0, 225);
+    -webkit-text-stroke: 5px greenyellow;
+    text-shadow: 12px 24px rgb(0, 170, 255);
+}
+
+@media (max-width: 500px) {
+    .Homepage {
+        font-size: 40px;
+    }
+    .about {
+        font-size: 40px;
+    }
+    .skill {
+        font-size: 40px;
+    }
+    .contact {
+        font-size: 40px;
+    }
+    .btn {
+        padding: 7px 20px;
+    }
+    .text1{
+        color: rgb(255, 0, 225);
+        -webkit-text-stroke: 2.5px greenyellow;
+        text-shadow: 6px 12px rgb(0, 170, 255);
+    }
+}
+@media (max-width: 811px) {
+    .Homepage {
+        font-size: 60px;
+    }
+    .about {
+        font-size: 60px;
+    }
+    .skill {
+        font-size: 60px;
+    }
+    .contact {
+        font-size: 60px;
+    }
+    .btn {
+        padding: 7px 20px;
+    }
+    .text1{
+        color: rgb(255, 0, 225);
+        -webkit-text-stroke: 2.5px greenyellow;
+        text-shadow: 6px 12px rgb(0, 170, 255);
+    }
+}
+@media (max-width: 540px) {
+    .Homepage {
+        font-size: 50px;
+    }
+    .about {
+        font-size: 50px;
+    }
+    .skill {
+        font-size: 50px;
+    }
+    .contact {
+        font-size: 50px;
+    }
+    .btn {
+        padding: 7px 20px;
+    }
+    .text1{
+        color: rgb(255, 0, 225);
+        -webkit-text-stroke: 2.5px greenyellow;
+        text-shadow: 6px 12px rgb(0, 170, 255);
+    }
+}
+@media (max-width: 451px) {
+    .Homepage {
+        font-size: 35px;
+    }
+    .about {
+        font-size: 35px;
+    }
+    .skill {
+        font-size: 35px;
+    }
+    .contact {
+        font-size: 35px;
+    }
+    .btn {
+        padding: 7px 20px;
+    }
+    .text1{
+        color: rgb(255, 0, 225);
+        -webkit-text-stroke: 1px greenyellow;
+        text-shadow: 6px 12px rgb(0, 170, 255);
+    }
+}
